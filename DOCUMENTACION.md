@@ -101,3 +101,8 @@ El proyecto demuestra cómo se puede construir una aplicación web de alto rendi
   - `index.css`: Actualización del encabezado del sistema de diseño y visualización sin text-transform uppercase para preservar el casing `proyectoNovo`.
   - `DOCUMENTACION.md`: Registro de la identidad de marca definitiva.
   - `agents.md`: Creación de la guía operativa y de arquitectura para asistentes y agentes de desarrollo IA.
+
+### Ajustes Estructurales y de Servicios
+- **Alineación de Servicios:** Se eliminó el servicio de *Tiendas Online* y se reestructuró la grilla de servicios en una sola fila continua de 4 columnas en escritorio (`Invitaciones Digitales`, `Sitios Web Interactivos`, `Menús Digitales QR`, `Tarjetas de Presentación`).
+- **Eliminación de Testimonios:** Se removió la sección de testimonios de clientes para mantener una propuesta 100% auténtica en la etapa actual del proyecto.
+- **Rediseño de Contacto (Tarjeta Enmarcada):** La sección de *Contacto* se transformó de un bloque de pantalla completa a una tarjeta contenida (`.contact__card`) de alta sofisticación visual, mejorando el encuadre y la experiencia de usuario.

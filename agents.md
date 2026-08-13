@@ -11,9 +11,8 @@ Este documento define las directrices, roles de subagentes, restricciones técni
 - **Servicios Ofrecidos:**
   1. Invitaciones Digitales Interactivas (RSVP, mapas, cuenta regresiva, audio).
   2. Sitios Web Interactivos (landing pages, portafolios, diseño a medida).
-  3. Tiendas Online / E-Commerce (catálogos dinámicos, pasarelas de pago).
-  4. Menús Digitales QR (restaurantes, bares, actualización en tiempo real).
-  5. Tarjetas de Presentación Digitales (NFC / QR para networking profesional).
+  3. Menús Digitales QR (restaurantes, bares, actualización en tiempo real).
+  4. Tarjetas de Presentación Digitales (NFC / QR para networking profesional).
 - **Filosofía de Implementación:** **Vanilla Web First**. Cero dependencias pesadas, carga ultrarrápida, SEO técnico impecable y estética cinematográfica minimalista inspirada en SpaceX.
 
 ---

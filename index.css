@@ -369,18 +369,18 @@ button {
 
 .services__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin-top: 72px;
 }
 
 .service-card {
-  padding: 44px 36px;
+  padding: 44px 28px;
   border-top: 1px solid var(--white-08);
   border-right: 1px solid var(--white-08);
   transition: background 0.5s ease;
 }
 
-.service-card:nth-child(3n) {
+.service-card:nth-child(4n) {
   border-right: none;
 }
 
@@ -987,14 +987,29 @@ button {
 /* ===== CONTACT ===== */
 
 .contact {
+  background: var(--black);
+  min-height: auto;
+  padding: 80px clamp(24px, 4vw, 64px) 120px;
+}
+
+.contact__card {
+  max-width: 1040px;
+  margin: 0 auto;
   background: var(--surface);
+  border: 1px solid var(--white-08);
+  padding: clamp(40px, 6vw, 72px);
+  position: relative;
+}
+
+.contact__header {
+  margin-bottom: 48px;
 }
 
 .contact__wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 100px;
-  margin-top: 64px;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: clamp(40px, 6vw, 80px);
+  margin-top: 0;
 }
 
 .form__group {
@@ -1217,7 +1232,7 @@ button {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .service-card:nth-child(3n) { border-right: 1px solid var(--white-08); }
+  .service-card:nth-child(4n) { border-right: 1px solid var(--white-08); }
   .service-card:nth-child(2n) { border-right: none; }
 
   .process__steps {
