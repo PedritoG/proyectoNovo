@@ -96,8 +96,8 @@ El proyecto demuestra cómo se puede construir una aplicación web de alto rendi
 
 - **Nombre Demo Reemplazado:** *Auria* ➔ **`proyectoNovo`**.
 - **Archivos Modificados:**
-  - `index.html`: Actualización de etiquetas `<title>`, Open Graph tags (`og:title`), logo en el header (`PROYECTONOVO`), testimonios, correos de contacto (`info@proyectonovo.digital`) y copyright en el footer.
+  - `index.html`: Actualización de etiquetas `<title>`, Open Graph tags (`og:title`), logo en el header (`proyectoNovo`), testimonios, correos de contacto (`info@proyectonovo.digital`) y copyright en el footer.
   - `index.js`: Actualización del diccionario de internacionalización (i18n), textos de testimonios en español e inglés, copyright de pie de página y claves de almacenamiento en navegador (`localStorage.getItem('proyectonovo-lang')`).
-  - `index.css`: Actualización del encabezado del sistema de diseño.
+  - `index.css`: Actualización del encabezado del sistema de diseño y visualización sin text-transform uppercase para preservar el casing `proyectoNovo`.
   - `DOCUMENTACION.md`: Registro de la identidad de marca definitiva.
   - `agents.md`: Creación de la guía operativa y de arquitectura para asistentes y agentes de desarrollo IA.
