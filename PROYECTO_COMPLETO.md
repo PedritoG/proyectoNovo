@@ -22,7 +22,8 @@
    - [Formulario de Contacto en Tarjeta Contenida](#formulario-de-contacto-en-tarjeta-contenida)
 8. [Reglas y Convenciones de Desarrollo para la IA](#8-reglas-y-convenciones-de-desarrollo-para-la-ia)
 9. [Guía de Extensión y Próximos Pasos](#9-guía-de-extensión-y-próximos-pasos)
-10. [Plantillas de Prompts para Continuar el Proyecto](#10-plantillas-de-prompts-para-continuar-el-proyecto)
+10. [12 Innovaciones y Mejoras Recomendadas (Alineadas con la Identidad)](#10-12-innovaciones-y-mejoras-recomendadas-alineadas-con-la-identidad)
+11. [Plantillas de Prompts para Continuar el Proyecto](#11-plantillas-de-prompts-para-continuar-el-proyecto)
 
 ---
 
@@ -321,12 +322,108 @@ Crear una subcarpeta `/blog` o páginas individuales de estudio de caso respetan
 
 ---
 
-## 10. Plantillas de Prompts para Continuar el Proyecto
+## 10. 12 Innovaciones y Mejoras Recomendadas (Alineadas con la Identidad)
+
+A continuación se detalla una lista de **12 características y funcionalidades de alto impacto** diseñadas específicamente para `proyectoNovo`. Todas respetan la filosofía **Vanilla Web**, la estética **SpaceX / Cinematic Minimalist Dark** y el enfoque boutique de la agencia:
+
+---
+
+### 1. 🧮 Calculadora Interactiva de Presupuestos (Scope Estimator)
+- **Categoría:** *Funcional / Conversión*
+- **Concepto:** Un widget interactivo paso a paso integrado antes de la sección de contacto donde el cliente selecciona el tipo de servicio (Invitación, Sitio Web, Menú QR, Tarjeta Digital) y marca las funcionalidades requeridas (ej: RSVP en tiempo real, música personalizada, mapa interactivo, cantidad de secciones, etc.).
+- **Cómo encaja:** Proporciona transparencia total sin fricción. Al finalizar, calcula un precio estimado instantáneo y transfiere automáticamente los datos y el total al formulario de contacto.
+- **Implementación Técnica:** Lógica pura en JavaScript que actualiza un valor numérico animado en tiempo real sin recargar la página.
+
+---
+
+### 2. 📱 Sandbox / Simulador de Invitaciones en Smartphone Virtual
+- **Categoría:** *Visual / Experiencia de Usuario*
+- **Concepto:** Dentro del modal de proyectos (`#projectModal`), en lugar de solo mostrar una imagen estática, se renderiza un marco de smartphone geométrico y minimalista de 1px donde el visitante puede interactuar en vivo con una invitación real de prueba (hacer scroll, probar la cuenta regresiva y simular el botón de RSVP).
+- **Cómo encaja:** Permite que los clientes "toquen" el producto antes de comprarlo, demostrando el valor diferencial frente a las invitaciones tradicionales en papel o PDF estático.
+
+---
+
+### 3. ✨ Halo de Luz Interactivo Cinematográfico (Cursor Aura)
+- **Categoría:** *Visual / Micro-interacción*
+- **Concepto:** Un sutil resplandor radial translúcido (`rgba(168, 85, 247, 0.04)`) que sigue suavemente las coordenadas del cursor del mouse sobre el fondo `#0a0a0a`.
+- **Cómo encaja:** Evoca el lenguaje visual de plataformas aeroespaciales y estudios de diseño de primer nivel. No distrae de la lectura y se ejecuta de forma ultra ligera con `requestAnimationFrame` y CSS `will-change: transform`.
+
+---
+
+### 4. 💬 Widget de Contacto Rápido vía WhatsApp Inteligente
+- **Categoría:** *Conversión Directa*
+- **Concepto:** Un botón flotante ultra minimalista en la esquina inferior que, al hacer clic, despliega un menú contextual discreto con opciones rápidas: *"Quiero cotizar una Invitación"*, *"Quiero un Sitio Web"*, *"Consulta general"*, abriendo WhatsApp con el mensaje ya estructurado y personalizado.
+- **Cómo encaja:** Reduce la fricción de contacto a un solo clic para clientes que prefieren mensajería instantánea sobre formularios de email.
+
+---
+
+### 5. ❓ Acordeón de Preguntas Frecuentes (FAQ Minimalista)
+- **Categoría:** *Contenido / Claridad Comercial*
+- **Concepto:** Una sección con desplegables nativos (`<details>` y `<summary>` estilizados) que resuelve las dudas más habituales:
+  - *¿En cuánto tiempo se entrega una invitación digital?* (24 a 72 horas).
+  - *¿Cómo se envía la invitación a mis invitados?* (Un link único y personalizable vía WhatsApp, Instagram o email).
+  - *¿Cómo se actualizan los precios de un Menú QR?* (Acceso instantáneo sin reinstalar nada).
+  - *¿Qué métodos de pago se aceptan?* (Transferencia bancaria, tarjetas, MercadoPago, PayPal/Stripe).
+- **Cómo encaja:** Responde objeciones de venta sin saturar visualmente el sitio.
+
+---
+
+### 6. 📷 Generador y Previsualizador de Menú QR en Tiempo Real
+- **Categoría:** *Herramienta Demostrativa*
+- **Concepto:** Una mini-herramienta en la sección de servicios donde el dueño de un restaurante puede escribir el nombre de su local y ver cómo se genera un código QR estilizado con estética `proyectoNovo` listo para escanear con su propio teléfono móvil y ver un menú demo.
+- **Cómo encaja:** Vende la experiencia del producto de forma tangible en menos de 5 segundos.
+
+---
+
+### 7. 📊 Tabla Comparativa Técnica de Planes
+- **Categoría:** *Claridad Comercial*
+- **Concepto:** Debajo de las tarjetas de precios actuales, un botón de enlace suave *"Ver comparativa técnica completa"* que despliega una matriz limpia contrastando los planes *Esencial*, *Profesional* y *Premium* (tiempo de entrega, revisiones incluidas, soporte técnico post-entrega, certificado SSL, optimización de velocidad).
+- **Cómo encaja:** Permite que clientes exigentes comparen exactamente qué incluye cada nivel sin generar desorden en la vista principal.
+
+---
+
+### 8. 🔊 Micro-interacciones Sonoras Opcionales (Sound FX Toggle)
+- **Categoría:** *Inmersión Cinematográfica*
+- **Concepto:** Un botón discreto en el navbar (ícono de audio silenciado por defecto) que, si el usuario decide activarlo, emite sutiles *clicks* hápticos de frecuencia ultra baja al interactuar con filtros del portafolio o cambiar de idioma (utilizando la Web Audio API nativa sin archivos MP3 pesados).
+- **Cómo encaja:** Refuerza la identidad futurista y cinemática sin ser invasivo.
+
+---
+
+### 9. 🟢 Insignia de Disponibilidad en Tiempo Real (Live Capacity Badge)
+- **Categoría:** *Psicología de Conversión / Urgencia*
+- **Concepto:** Una pequeña etiqueta discreta ubicada junto al título de contacto:  
+  `● DISPONIBILIDAD: 2 cupos para entregas esta semana` o `TIEMPO PROMEDIO DE RESPUESTA: < 2 HORAS`.
+- **Cómo encaja:** Transmite alta demanda, compromiso y atención personalizada, elevando el valor percibido del servicio.
+
+---
+
+### 10. 💱 Selector Multidivisa Automático (USD / ARS / EUR)
+- **Categoría:** *Funcional / Internacionalización*
+- **Concepto:** Junto al botón de alternar idioma (`ES` / `EN`), un interruptor de moneda que convierte instantáneamente los precios de las tarjetas (`$29 USD` / `$99 USD` / `$249 USD`) a la moneda local del visitante.
+- **Cómo encaja:** Facilita la toma de decisión para clientes locales e internacionales sin necesidad de calcular tipos de cambio manualmente.
+
+---
+
+### 11. 📦 Rastreador de Estado de Proyecto para Clientes (Client Tracker)
+- **Categoría:** *Fidelización / Experiencia Post-Venta*
+- **Concepto:** Un mini-buscador discreto en el pie de página donde un cliente que ya contrató un servicio puede ingresar su código de seguimiento (ej: `PN-104`) y ver una barra de progreso limpia con las 4 etapas del proyecto: `01 Briefing` ➔ `02 Diseño` ➔ `03 Desarrollo` ➔ `04 Entrega`.
+- **Cómo encaja:** Aporta una imagen de agencia de clase mundial y automatiza la consulta del estado de avance.
+
+---
+
+### 12. 🕶️ Modo Sala Oscura / Pure OLED Ultra-Black
+- **Categoría:** *Visual / Personalización*
+- **Concepto:** Un conmutador sutil que permite alternar entre el tema oscuro por defecto (`#0a0a0a` con superficies `#111111`) y un modo *Pure OLED* donde el fondo es `#000000` absoluto con bordes ultra nítidos, optimizado para pantallas OLED/AMOLED de gama alta.
+- **Cómo encaja:** Satisface el gusto por el minimalismo extremo y la eficiencia energética en dispositivos móviles.
+
+---
+
+## 11. Plantillas de Prompts para Continuar el Proyecto
 
 Copia y pega cualquiera de estos prompts en ChatGPT, Claude o cualquier otra IA junto con este documento:
 
-### 📋 Prompt 1: Para Agregar una Nueva Funcionalidad
-> *"Estoy trabajando en el proyecto `proyectoNovo`, un sitio web Vanilla HTML/CSS/JS con diseño minimalista oscuro estilo SpaceX. Adjunto el archivo `PROYECTO_COMPLETO.md` con el contexto del proyecto. Quiero que agregues [DESCRIBE LA FUNCIONALIDAD AQUÍ, ej: integración con Formspree / un nuevo filtro en el portafolio]. Asegúrate de mantener la estructura bilingüe i18n, los estilos Vanilla CSS y las convenciones del documento."*
+### 📋 Prompt 1: Para Implementar una de las 12 Mejoras
+> *"Estoy trabajando en `proyectoNovo`, un sitio web Vanilla HTML/CSS/JS con estética espacial minimalista oscura (inspirada en SpaceX). Adjunto el archivo `PROYECTO_COMPLETO.md`. Quiero que implementes la mejora #[NÚMERO_DE_MEJORA] ([NOMBRE_DE_MEJORA]). Asegúrate de que el código sea 100% Vanilla (sin frameworks ni dependencias externas), conserve el soporte bilingüe `data-i18n`, respete la paleta de colores CSS y mantenga el casing estricto `proyectoNovo`."*
 
-### 📋 Prompt 2: Para Crear una Nueva Página Secundaria
-> *"Basándote en el archivo `PROYECTO_COMPLETO.md` de `proyectoNovo`, genera una nueva página HTML (`servicios-detalle.html`) que detalle a fondo el servicio de 'Invitaciones Digitales'. Debe reutilizar las clases y variables de `index.css`, mantener la navegación fija, el soporte bilingüe `data-i18n` y la estética cinematográfica minimalista."*
+### 📋 Prompt 2: Para Agregar una Nueva Funcionalidad o Página
+> *"Basándote en el archivo `PROYECTO_COMPLETO.md` de `proyectoNovo`, genera [DESCRIBE LA FUNCIONALIDAD O PÁGINA]. Asegúrate de reutilizar las variables de `index.css`, mantener la navegación fija, el soporte bilingüe en `index.js` (`translations.es` y `translations.en`) y la estética cinematográfica minimalista."*
