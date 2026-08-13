@@ -1,5 +1,5 @@
 // ============================================
-// AURIA — Main JavaScript
+// PROYECTONOVO — Main JavaScript
 // Minimalist, clean, SpaceX-inspired
 // ============================================
 
@@ -53,7 +53,7 @@ const translations = {
     'process.step4.desc': 'Entregamos tu proyecto listo para compartir con el mundo. Soporte incluido.',
     'testimonials.label': 'Testimonios',
     'testimonials.title': 'Lo que dicen nuestros clientes',
-    'testimonials.1.quote': 'Auria creó la invitación de nuestra boda y fue mágica. Todos los invitados quedaron encantados con la animación y el diseño.',
+    'testimonials.1.quote': 'ProyectoNovo creó la invitación de nuestra boda y fue mágica. Todos los invitados quedaron encantados con la animación y el diseño.',
     'testimonials.1.service': 'Invitación Digital',
     'testimonials.2.quote': 'El sitio web que diseñaron para mi restaurante incrementó nuestras reservas online un 40%. Diseño impecable.',
     'testimonials.2.service': 'Sitio Web',
@@ -106,7 +106,7 @@ const translations = {
     'contact.message': 'Mensaje',
     'contact.send': 'Enviar mensaje <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>',
     'contact.success': '¡Mensaje enviado con éxito! Nos pondremos en contacto pronto.',
-    'footer.copyright': '© 2026 Auria. Todos los derechos reservados.',
+    'footer.copyright': '© 2026 ProyectoNovo. Todos los derechos reservados.',
     'modal.features.title': 'Características principales:',
     'modal.cta': 'Solicitar proyecto similar <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>'
   },
@@ -159,7 +159,7 @@ const translations = {
     'process.step4.desc': 'We deliver your project ready to share with the world. Support included.',
     'testimonials.label': 'Testimonials',
     'testimonials.title': 'What our clients say',
-    'testimonials.1.quote': 'Auria created our wedding invitation and it was magical. All guests were enchanted by the animation and design.',
+    'testimonials.1.quote': 'ProyectoNovo created our wedding invitation and it was magical. All guests were enchanted by the animation and design.',
     'testimonials.1.service': 'Digital Invitation',
     'testimonials.2.quote': 'The website they designed for my restaurant increased our online reservations by 40%. Impeccable design.',
     'testimonials.2.service': 'Website',
@@ -212,7 +212,7 @@ const translations = {
     'contact.message': 'Message',
     'contact.send': 'Send message <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>',
     'contact.success': 'Message sent successfully! We\'ll be in touch soon.',
-    'footer.copyright': '© 2026 Auria. All rights reserved.',
+    'footer.copyright': '© 2026 ProyectoNovo. All rights reserved.',
     'modal.features.title': 'Key features:',
     'modal.cta': 'Request similar project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>'
   }
@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Internationalization
 // ============================================
 
-let currentLang = localStorage.getItem('auria-lang') || 'es';
+let currentLang = localStorage.getItem('proyectonovo-lang') || 'es';
 
 function initI18n() {
   if (currentLang !== 'es') {
@@ -250,7 +250,7 @@ function applyTranslations(lang) {
 
   document.documentElement.lang = lang;
   currentLang = lang;
-  localStorage.setItem('auria-lang', lang);
+  localStorage.setItem('proyectonovo-lang', lang);
 
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');

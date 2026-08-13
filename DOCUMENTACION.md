@@ -1,6 +1,6 @@
-# Documentación del Proyecto: Auria
+# Documentación del Proyecto: proyectoNovo
 
-Este documento detalla el proceso de pensamiento, las decisiones de diseño y la arquitectura técnica detrás de la construcción de **Auria**, una plataforma web para una agencia de servicios digitales.
+Este documento detalla el proceso de pensamiento, las decisiones de diseño, la arquitectura técnica y la evolución de **proyectoNovo** (nombre definitivo tras la transición del demo conceptual inicial *Auria*), una plataforma web para una agencia de servicios digitales de alta gama.
 
 ---
 
@@ -10,7 +10,7 @@ Mi proceso como asistente de IA para abordar proyectos de desarrollo web sigue u
 
 ### Fase 1: Comprensión y Planificación
 - **Análisis de Requerimientos:** Entender el objetivo principal (una web para vender servicios digitales), los servicios específicos (invitaciones, webs, tiendas, menús, tarjetas) y los requerimientos funcionales (bilingüe, precios estimativos, contacto).
-- **Definición de Identidad (Branding):** En ausencia de un nombre provisto por el usuario, propuse "Auria" (derivado del latín *aurea*, que significa dorado/precioso), buscando un nombre corto, memorable y elegante en cualquier idioma.
+- **Definición de Identidad (Branding):** Inicialmente se utilizó el nombre demo *Auria* como placeholder conceptual. Posteriormente se consolidó la marca oficial definitiva **proyectoNovo**, reflejando innovación, modernidad y un nuevo estándar en creación de productos digitales.
 - **Estrategia Tecnológica:** Optar por **Vanilla HTML/CSS/JS**. Para un sitio tipo landing page enfocado en diseño y rendimiento, evitar frameworks pesados (como React/Next.js) garantiza una carga ultrarrápida, menor complejidad de mantenimiento y control total sobre el DOM y las animaciones.
 
 ### Fase 2: Construcción Incremental
@@ -89,3 +89,15 @@ El proyecto está construido sin dependencias externas, utilizando tecnologías 
 ## 4. Conclusión
 
 El proyecto demuestra cómo se puede construir una aplicación web de alto rendimiento y diseño premium utilizando exclusivamente herramientas web nativas. La transición de un diseño genérico a uno inspirado en SpaceX subraya la importancia del sistema de variables en CSS (Custom Properties) y cómo una estructura HTML semántica y limpia permite reescribir la capa visual por completo sin afectar la lógica o funcionalidad del sitio.
+
+---
+
+## 5. Registro de Cambios: Transición de Marca (Rebranding)
+
+- **Nombre Demo Reemplazado:** *Auria* ➔ **`proyectoNovo`**.
+- **Archivos Modificados:**
+  - `index.html`: Actualización de etiquetas `<title>`, Open Graph tags (`og:title`), logo en el header (`PROYECTONOVO`), testimonios, correos de contacto (`info@proyectonovo.digital`) y copyright en el footer.
+  - `index.js`: Actualización del diccionario de internacionalización (i18n), textos de testimonios en español e inglés, copyright de pie de página y claves de almacenamiento en navegador (`localStorage.getItem('proyectonovo-lang')`).
+  - `index.css`: Actualización del encabezado del sistema de diseño.
+  - `DOCUMENTACION.md`: Registro de la identidad de marca definitiva.
+  - `agents.md`: Creación de la guía operativa y de arquitectura para asistentes y agentes de desarrollo IA.
