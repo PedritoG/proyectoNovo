@@ -1,6 +1,7 @@
 # 🚀 200 Nombres Creativos para la Agencia Digital
 
-> **Enfoque:** Servicios digitales (invitaciones interactivas, webs, e-commerce, menús QR, tarjetas digitales).  
+> 🏆 **Nombre Oficial Seleccionado:** **`proyectoNovo`**  
+> **Enfoque:** Servicios digitales (invitaciones interactivas, webs, menús QR, tarjetas digitales).  
 > **Estética:** Minimalista, sofisticada, futurista, memorable y de sonido universal.
 
 ---
